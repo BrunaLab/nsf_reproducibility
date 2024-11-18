@@ -19,6 +19,64 @@ biblio-style: apalike
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## TBD for Reproducibility Grant
+
+**A. Follow-up: Potential Partners / Co-PIs / Senior Personnel**  
+
+1. ATBC
+2. EiC _Biotropica_
+3. Nosek, Arrington, Center for Open Science
+4. Specialist in Assessment, Social Psychology, or Organizational Behavior  
+
+> - Kate Ratliff: http://www.kateratliff.com/
+> - Nia Morales: https://tinyurl.com/yeyv29x6
+> - Fiona Fidler: https://fionaresearch.wordpress.com/about/
+> - Nicole Gravina: https://people.clas.ufl.edu/ngravina/
+> - Amir Erez: https://warrington.ufl.edu/directory/profiles/5084/
+> - Gwendolyn Lee: https://warrington.ufl.edu/directory/profiles/5067/  
+
+    
+**B. Approach: how many & which replications**
+
+1. Open call to replicate any from list of 10, **OR** 
+2. Line up commitments in advance to replicate 3-5 specific projects, **OR** 
+3. Hybrid Approach: have 2-3 lined up in advance for 1st Round, then Open Call once Project is established **AND/OR**
+4. Involvement of OTS or other repeated field courses (e.g., Guanacaste for _Acacia_)?
+      
+**C. Activities**  
+
+1. Replication Grants (administered by ATBC)
+1. ATBC Symposium or Session to Introduce Project 
+1. Online and Meeting Training Workshops (design, reproducible science, R)
+1. Meta-analysis workshop with Replication Leaders
+1. Assessment
+
+**D. Personnel / Financial**  
+
+1. EB & SC: Project Oversight, Workshops
+1. Assessment PI
+1. Postdoc or GA conducting Assessment
+1. ATBC Treasurer (disbursements)
+1. _Biotropica_ Editor (publication oversight)
+1. Replication Leaders: Established Researchers? Postdocs or GAs leading 1-2 replications?
+
+**E. Financial**  
+
+1. PI Salary Support: EB, SC, Assessment PI, BN?
+2. Postdocs or GAs 
+3. Replication Grants (as subcontract to ATBC)
+4. ATBC Overhead  
+
+> - bank fees
+> - stipends for Editor and Treasurer for additional work
+> - stipends to incentivize Replication Leaders
+ 
+5. Travel to Meetings & Workshop Materials
+6. Dryad and Publication Fees  
+
+
+\newpage 
+
 # REPRODUCIBILITY AS A CATALYST FOR TRANSFORMATIVE INSIGHTS AND CULTURAL CHANGE IN FIELD BIOLOGY{-}
 
 ## PROJECT DESCRIPTION  
@@ -33,7 +91,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation. -->
 
-_The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation._  
+**_TO DO:_** _The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation._  
 
 ## CONCEPTUAL FRAMEWORK 
 
@@ -65,11 +123,11 @@ Shifting the current research paradigm to one that values such replications requ
 
 ## IMPACT ON THE RESEARCH COMMUNITY
 
-_This section of the project description should address the biological user community impacted by the proposed effort and provide evidence of the need for the proposed innovation as compared to existing capabilities. Proposals should also explicitly state how the proposed work will advance the capabilities of the biological research community as it specifically relates to the research as supported by the divisions within the NSF’s Directorate for Biological Sciences._
+**_TO DO:_** _This section of the project description should address the biological user community impacted by the proposed effort and provide evidence of the need for the proposed innovation as compared to existing capabilities. Proposals should also explicitly state how the proposed work will advance the capabilities of the biological research community as it specifically relates to the research as supported by the divisions within the NSF’s Directorate for Biological Sciences._
 
 <!-- CATALYZING A CHANGE IN SCIENTIFIC CULTURE THROUGH REPRODUCIBILITY -->
 
-**Our project will have four major impacts on the science and scientific culture of tropical biology and other field-based disciplines. First**, there is the **_knowledge gained_** by replicating the foundational studies of the discipline. Are the results of these studies similar when replicated decades later and in new locations? If not, are the new results qualitatively similar, equivocal, or contradictory? Do we have to revisit alternative hypotheses and conduct new research in light of the replication results? In answering these questions, the participants in our project will make major conceptual advances: they will both test and refine classical theories and accelerate the development of novel ones.
+**_Our project will have four major impacts on the science and scientific culture of tropical biology and other field-based disciplines_.** **First**, there is the **_knowledge gained_** by replicating the foundational studies of the discipline. Are the results of these studies similar when replicated decades later and in new locations? If not, are the new results qualitatively similar, equivocal, or contradictory? Do we have to revisit alternative hypotheses and conduct new research in light of the replication results? In answering these questions, the participants in our project will make major conceptual advances: they will both test and refine classical theories and accelerate the development of novel ones.
 
 **Second**, this initiative will drive an important **_change in scientific culture_**. The impediments to replicating prior work are the same in field biology as they are in other disciplines - limited financial resources for doing so, skepticism regarding the extent of a ‘reproducibility crisis’, and culture emphasizing novelty, often at the expense of rigor. We expect our results will demonstrate to this community of scholars why replication is essential, promote a vigorous discussion about the studies that are most urgent to replicate in light of the theoretical and applied impacts, and provide guidance for designing and describing studies that can be readily replicated. Our ambition is that tropical biology undergo a transformative change in scientific culture, with replication and reproducibility becoming integral components of rigorous research.
 
