@@ -1,7 +1,7 @@
 ---
 title: "PROJECT DESCRIPTION"
 date: "\\vspace{-1em}"
-csl: style/eb_nsf.csl
+csl: './style/eb_nsf_2.csl'
 # output: word_document # for docx uncomment this line & comment out next 7
 output:
   pdf_document:
@@ -13,10 +13,29 @@ output:
 documentclass: style/nsf2
 bibliography: reproducibility.bib
 biblio-style: apalike
+header-includes:
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r GlobalOptions, include = FALSE}
+options(knitr.duplicate.label = 'allow',
+        knitr.kable.NA = '',
+        fig.pos='H')
+knitr::opts_knit$set(eval.after = "fig.cap")
+```
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,message=FALSE,warning=FALSE)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(kableExtra)
+# library(egg)
+# library(gridExtra)
+# library(magick)
+# library(here)
+# library(citr)
 ```
 
 ## TBD for Reproducibility Grant
@@ -138,6 +157,7 @@ Shifting the current research paradigm to one that values such replications requ
 ## PROJECT IMPLEMENTATION, MANAGEMENT, & EVALUATION
 
 **DEVELOPMENT PLAN: ** We envision a 5-year Reproducibility Project. In Year 1 we will solicit and select Principal Investigators (PIs) to guide the replication of five studies on our priority list. These PIs – with the assistance of the Center for Open Science, an ATBC Committee, and  _Biotropica_'s Editors – would develop and post the guidelines for replicating a study, including the protocols, data collection sheets, and scripts for statistical analyses to be used by participating researchers. The ATBC would then help PIs recruit a network of researchers in different locations to replicate the study. Implementing a local replication requires working with the PI’s to pre-register the study [@chambersInsteadPlayingGame2014a; @nosekRegisteredReportsMethod2014] with  _Biotropica_'s Editorial Board, which peer reviews the design and provisionally accepts a Registered Report for publication prior to any data collection. This model, which has been adopted by a number of journals participating in Reproducibility Projects (see https://cos.io/rr), both enhances the credibility of projects and provides incentive for participation because it guarantees publication of results regardless of statistical significance or magnitude of the effects [@chambersInsteadPlayingGame2014a; @nosekRegisteredReportsMethod2014]. Moreover, this model facilitates engagement of experts in the design of the methodology and leads to consensus on what constitutes a replication test of a study before the results are known [@nosekArgueWhatReplication2020].  This is valuable both for improving the quality of replication designs and to address the potential for pre-existing beliefs to motivate accepting or dismissing a replication’s outcome. Once the data have been collected, the PI’s will work with the research teams to analyze and archive it and prepare the results-included Registered Report for submission to _Biotropica_.  
+
 <!-- This section should describe the planned activities, including the design of the proposed innovation, performance metrics, the biological research motivations for performance criteria, and how the design plan derives from these motivations. This section should also include a discussion of the expected results and a risk assessment with alternative approaches should the proposed favored approach fail. The development plan should contain sufficient detail to allow assessment of the feasibility of the innovation and the potential success of the project. Included in this section should be details of a timeline for assessing development objectives. --> 
 
 When all of the replications have been completed, the PIs will conduct a meta-analysis of the entire network’s results – also to be published in _Biotropica_ – with all network members as co-authors. We anticipate these meta-analyses will be high-impact advances given the geographic scope, methodological consistency, and the conceptual importance to the field of the selected studies. That all participants would be authors or co-authors of two publications irrespective of their replication’s outcome is a critical incentive we hope would encourage those who might otherwise be hesitant about repeating the work of others to participate.
@@ -153,11 +173,11 @@ When all of the replications have been completed, the PIs will conduct a meta-an
 
 **COMMUNICATION & DISSEMINATION**
 
-_Describe how knowledge obtained through support of this work will be disseminated to its target audience and to the broader biological, interdisciplinary, and other audiences. When appropriate, describe how the products (instrumentation, software, research methods) of this work will be accessible to its target audience and to the broader biological, interdisciplinary, and other audiences. Provide a clear statement of relevant intellectual property considerations and any constraints these may place on access to the proposed resource._
+**TODO:** _Describe how knowledge obtained through support of this work will be disseminated to its target audience and to the broader biological, interdisciplinary, and other audiences. When appropriate, describe how the products (instrumentation, software, research methods) of this work will be accessible to its target audience and to the broader biological, interdisciplinary, and other audiences. Provide a clear statement of relevant intellectual property considerations and any constraints these may place on access to the proposed resource._
 
 **OUTCOMES ASSESMENT:**
 
-_Identify what metrics will be used to measure success toward the stated goals of the project (both Intellectual Merit and Broader Impacts) and by what process the projects will collect and evaluate them._
+**TODO:** _Identify what metrics will be used to measure success toward the stated goals of the project (both Intellectual Merit and Broader Impacts) and by what process the projects will collect and evaluate them._
 
 
 <!-- \begin{wrapfigure}{R}{.25\textwidth}   -->
@@ -179,7 +199,7 @@ _Identify what metrics will be used to measure success toward the stated goals o
 
 ## BROADER IMPACTS
 
-Some of the most important advances in tropical biology have come from researchers forming networks to systematically collect observations of tree growth and diversity in permanent plots (Menke et al. 2012, Anderson-Teixeira et al. 2015, Poorter et al. 2016, Rovero & Ahumada 2017). The same is likely to be true as tropical biologists embrace “distributed experiments” (Fraser et al. 2013, Borer et al. 2014), in which the same experimental manipulation is implemented at geographically and ecologically disparate locations (e.g., Romero et al. 2020). The Reproducibility Project in Tropical Biology (RP:TB) we envision complements these efforts with a new means by which researchers throughout the tropics can collaborate to test and advance theory. Because many of the experiments proposed for replication are inexpensive to implement and monitor, and financial obstacles to individual participation will be eliminated when the RP:TB is finally funded, we expect this initiative will greatly expand the diversity of researchers participating in or leading networks. We especially hope the RP:TB will serve to stimulate much needed North-South and especially South-South collaboration (Stocks et al. 2008). The ATBC-organized workshops and symposia emerging from the project will also serve as an important tool for capacity building and the professional advancement of early career scientists, as will the integration of reproducibility projects and a culture of open science in field courses and other educational programs. Finally, the data from replications will be highly valuable for quantifying the generality, impact, magnitude, speed, and consequences of human-induced alteration of ecosystems. Nowhere is this need more critical than in tropical ecosystems, which are home to majority of the world’s biodiversity and human population, play a critical role in global climate, and are being transformed by humans at an unprecedented rate and scale.
+Some of the most important advances in tropical biology have come from researchers forming networks to systematically collect observations of tree growth and diversity in permanent plots [@anderson-teixeiraCTFSForestGEOWorldwideNetwork2015; @menkePlantfrugivoreNetworksAre2012; @poorterBiomassResilienceNeotropical2016; @roveroTropicalEcologyAssessment2017]. The same is likely to be true as tropical biologists embrace “distributed experiments” [@borerFindingGeneralityEcology2014; @fraserCoordinatedDistributedExperiments2013], in which the same experimental manipulation is implemented at geographically and ecologically disparate locations [e.g., @romeroExtremeRainfallEvents2020]. The Reproducibility Project in Tropical Biology (RP:TB) we envision complements these efforts with a new means by which researchers throughout the tropics can collaborate to test and advance theory. Because many of the experiments proposed for replication are inexpensive to implement and monitor, and financial obstacles to individual participation will be eliminated when the RP:TB is finally funded, we expect this initiative will greatly expand the diversity of researchers participating in or leading networks. We especially hope the RP:TB will serve to stimulate much needed North-South and especially South-South collaboration [@stocksGeographicalInstitutionalDistribution2008]. The ATBC-organized workshops and symposia emerging from the project will also serve as an important tool for capacity building and the professional advancement of early career scientists, as will the integration of reproducibility projects and a culture of open science in field courses and other educational programs. Finally, the data from replications will be highly valuable for quantifying the generality, impact, magnitude, speed, and consequences of human-induced alteration of ecosystems. Nowhere is this need more critical than in tropical ecosystems, which are home to majority of the world’s biodiversity and human population, play a critical role in global climate, and are being transformed by humans at an unprecedented rate and scale.
 
 It is essential to emphasize that this reproducibility project will have societal impacts that extend beyond the transformative effects on field-based disciplines. The research conducted by tropical biologists is critical for documenting threats to biodiversity, identifying priority areas for conservation, guiding the management of plants and animals harvested for human use, and informing policy at local, national, and international levels. These decisions rely in part on studies whose results may or may not be reproducible, however, which could have major - even catastrophic - consequences. For instance, one could overestimate the biodiversity in potential biological reserves based on snapshot surveys of bioindicator species (e.g., ants, understory plants, pollinators, frugivores/seed dispersers) whose results are anomalous.
 
@@ -189,36 +209,147 @@ In sum, there are few areas with greater policy implications in the 21st century
 
 ## RESULTS FROM PRIOR NSF RESEARCH
 
-_When appropriate, this section must include evidence of deposition of samples, data and/or data products in recognized, accessible, community-accepted repositories by listing such repositories and, if practical, metadata. All publications, data, data products, programs and/or scripts that are specifically mentioned in the Results from Prior NSF Support section must be referenced in the References Cited section and must provide unique, resolvable and persistent identifiers (such as Digital Object Identifiers [DOIs]; Uniform Resource Locators (URLs), or similar)._
+**TODO:** _When appropriate, this section must include evidence of deposition of samples, data and/or data products in recognized, accessible, community-accepted repositories by listing such repositories and, if practical, metadata. All publications, data, data products, programs and/or scripts that are specifically mentioned in the Results from Prior NSF Support section must be referenced in the References Cited section and must provide unique, resolvable and persistent identifiers (such as Digital Object Identifiers [DOIs]; Uniform Resource Locators (URLs), or similar)._
 
 **Bruna:** “SG: Synergistic effects of forest fragmentation and droughts on tropical plant demography” (DEB-1948607, $214,390). **_Intellectual Merit:_** The project had two objectives (1) to test for lagged effects of precipitation extremes on the vital rates of the Amazonian understory herb Heliconia acuminata, and (2) to build integral projection models (IPMs) with lagged effects to simulate the dynamics of populations in forest fragments and continuous forest under IPCC scenarios for the Central Amazon. Effects of precipitation extremes on vital rates could be delayed up to 36 months, with more pronounced effects on plants in fragments than on those in continuous forest. IPMs suggest that populations in fragments will decline under all IPCC scenarios, while the positive lagged effects of drought on growth will lead populations in forest to increase. The project resulted in two published articles, with two more in preparation, along with a permanently archived demographic dataset (>66,000 plant × year records of >8500 plants) and code repositories with a real-time data summary and validation dashboard and code for users test for lagged effects with their data sets. **_Broader Impacts:_** The award supported 1 Postdoc and 2 REU students. The students gained skills programming, statistics, and using quantitative methods to test ecological hypotheses. The postdoc’s programming lessons and archives were fundamental to his being hired as a Scientific Programmer & Educator at the U. of Arizona. The PI developed educational materials on climate change and tropical forests for a general education course and data management for a graduate course.
 
 **_Queenborough:_**
 
+
+
 \newpage
 
-# REFERENCES
+
+```{r examples, echo=FALSE,message = FALSE,warning=FALSE}
+table_ex <- read_csv("explain_table.csv",
+                     col_names= FALSE) 
+
+table_ex[,1] <- NULL
+
+names(table_ex)<-c("Approach 1","Approach 2","Approach 3","Approach")
+
+# tmp <- knitr::kable(table_ex,
+kable(table_ex,
+      digits = 2,
+      align = "llll",
+      format = "latex",
+      row.names = FALSE,
+      escape=FALSE,
+      booktabs = T,
+      linesep = "", # removes the blank line after every 5 lines
+      caption = "Examples of replications vs. generalizability tests with tropical systems. Note that replications in EBE have often been characterized by how closely the species and location matched those of the original study (e.g., 'direct', 'partial', or 'conceptual' replication; reviewed in Kelly (2006), Nakagawa and Parker (2015), Fidler et al. (2017)). However, we use the more conceptually generative definition of a replication: A study for which any outcome is diagnostic evidence of about a claim from prior research (Nosek and Errington 2020b)."
+      ) %>% 
+  column_spec (1, width="3.1cm") %>%
+  # column_spec (1, width="2cm", bold = T) %>%
+  column_spec (2, width="4.3cm") %>%
+  column_spec (3, width="4.3cm") %>%
+  column_spec (4, width="4.3cm") %>%
+  # column_spec (5, width="3cm") %>%
+  row_spec(0, bold = T, hline_after = FALSE, align="c") %>%
+  # row_spec(2, hline_after = FALSE) %>%
+  kable_styling(
+    # bootstrap_options = c("hover"),
+    # full_width = F,
+    latex_options = c("scale_down", "HOLD_position"),
+    font_size = 11,
+    position = "center"
+  ) %>% 
+  pack_rows("Examples using Janzen (1967)", 3, 3) %>% 
+  pack_rows("Examples using Dirzo et al. (1992)", 5,5) %>% 
+  add_header_above(c("Potential replications" = 3, "Generalizability Tests" = 1),
+                   bold=T,
+                   align="c")
+# tmp <- str_replace(tmp, "Super1", "$^{1}$")
+# tmp <- str_replace(tmp, "Super2", "$^{2}$")
+# knitr::asis_output(tmp)
+```
+
+\newpage
+\blandscape
+
+## Table 2: List of proposed articles and justification (needs formatting)
+
+<!-- ```{r studies, echo=FALSE,message = FALSE,warning=FALSE} -->
+
+<!-- Article<-as_tibble(c("Coley 1983", -->
+<!--            "Augspurger 1983", -->
+<!--            "Janzen 1967", -->
+<!--            "Marquis 1984", -->
+<!--            "Chazdon and Fetcher 1984, Kitajima 1984", -->
+<!--            "Ewel 1976", -->
+<!--            "Denslow 1980, Gentry and Dobson 1987, Jankowski et al 2009, Ryan et al 1983", -->
+<!--            "Bruna 1999, Carvalho and Vasconcelos 1999, Holl 1999, Menke et al. 2012"))%>%  -->
+<!--   rename(Article=value) -->
+
+
+<!-- Justification<-as_tibble(c("The coevolutionary arms race between plants and herbivores has led to the evolution of thousands of defensive chemical compounds, including many used by humans as pharmaceuticals (e.g., quinine, taxol, opiates). This study demonstrated how plant characteristics interact with local environmental conditions in forests to influence these plant defenses; replicating it in other locations is critical to both refining plant evolutionary theory and improving bioprospecting for novel pharmaceutical or pesticide compounds.",  -->
+
+<!-- "Though this study was intended to test a fundamental theory explaining where seedlings become established, it also demonstrated fungal pathogens were an important and underappreciated mechanism influencing where seedlings became established. However, we know little about variation in pathogen effects at large scales or how climate change has altered their impacts, even for tree species that are central to community-based conservation strategies in the tropics (e.g., mahogany, Brazil nut). Replicating this study fill this data void.", -->
+
+<!-- "Over 300 species of tropical plants worldwide house ants in specialized structures in return for ants ferociously defending them against herbivores - an interaction that has fascinated naturalists since the early 1600s. This study, conducted in Central America with the tree genus Acacia, was the first to demonstrate unequivocally and experimentally that this was indeed a mutualism. Acacia are used by humans worldwide for timber and other uses and are critical stocks of carbon in African savannas; understanding why Acacia trees live or die has direct implications for individual livelihoods and conservation strategies. However, perhaps this study’s greatest impact was in demonstrating ant-plant systems are ideal ones for experimentally studying the structure, breakdown, and recovery of mutualistic interactions in ways that are impossible with other mutualist systems (e.g., pollination, seed dispersal). Replicating this study will have impacts that extend beyond the conservation of this ecologically and economically critical species - it will allow ecologists to infer how human activities have affected other mutualisms that provide critical ecosystem services.", -->
+
+<!-- "This study was one of the first to show that herbivory can lead directly to reduced seed production in plants. Consequently, subsequent studies modeling the long-term viability of endangered plant species or those harvested for use by humans have usually incorporated either direct or indirect measurements of herbivory or its impact.  Replicating this study will help assess under what circumstances these labor-intensive and challenging measurements are actually necessary.", -->
+
+<!-- "The limited amount of sunlight reaching the understory of tropical forests - less than 2 percent - is the factor limiting the growth and survivorship of forest plants. These studies mapped understory light levels and documented how plants respond physiologically to variation in the light environment. Though considered seminal, they have yet to be replicated. Consequently, it remains poorly understood how altered forest structure resulting from deforestation or drought changes forest microclimate and how plants respond to these changes.", -->
+
+<!-- "40 percent of the world’s tropical forests are not “primary forest”, but rather “successional” forest regenerating in areas abandoned after agriculture or deforestation. How these areas were used prior to being abandoned strongly influences nutrient cycling in regenerating forests, which in turn influences their species diversity and hence capacity to sequester carbon. Replicating this study globally will provide the most robust data to date on these issues, informing the principal international policy mechanisms for promoting forest conservation -->
+<!-- These studies were fundamental in describing how 1000s of species are able to coexist in tropical ecosystems when presumably competing for the same resources. Revisiting their conclusions is essential in light of the myriad ways tropical ecosystems are being altered, since most conservation policies are based on the original results. For instance, deforestation and droughts increase forest disturbance, which can cause species that thrive in them to increase in abundance while others go extinct (Denslow, Gentry). Similarly, warming climates are predicted to cause species found only at high elevations to be pushed “off mountaintops” to extinction. Finally, the interaction of changing landscapes and climates can influence animal behavior responsible for mating success; without understanding changes in species behavior, abundance, and distribution it is impossible to design conservation and management plans to proactively protect threatened biodiversity.",  -->
+
+<!-- "These studies were fundamental in describing how 1000s of species are able to coexist in tropical ecosystems when presumably competing for the same resources. Revisiting their conclusions is essential in light of the myriad ways tropical ecosystems are being altered, since most conservation policies are based on the original results. For instance, deforestation and droughts increase forest disturbance, which can cause species that thrive in them to increase in abundance while others go extinct (Denslow, Gentry). Similarly, warming climates are predicted to cause species found only at high elevations to be pushed “off mountaintops” to extinction. Finally, the interaction of changing landscapes and climates can influence animal behavior responsible for mating success; without understanding changes in species behavior, abundance, and distribution it is impossible to design conservation and management plans to proactively protect threatened biodiversity.", -->
+<!-- "Deforestation and the resulting isolation of ‘islands’ of forest surrounded by agriculture is possibly the leading cause of extinction in the tropics. The following studies have provided some of the most important and widely-applied insights to date on how plants and animals that remain in these forest fragments are influenced by the dramatic changes to their environment. Replication - especially in the understudied forests of equatorial Africa - will help ensure that the results of these studies are truly applicable to other regions or if resources are better allocated to mitigating the impacts of deforestation on other species and ecological processes.")) %>%  -->
+<!--   rename(Justification=value) -->
+
+
+<!-- table_rep<-bind_cols(Article,Justification) %>%  -->
+<!--   mutate(Article=paste(Article, Justification,sep= ": "))  -->
+
+<!-- table_rep[,2] <- NULL -->
+<!-- # names(table_ex)<-c("Approach 1","Approach 2","Approach 3","Approach") -->
+
+<!-- # tmp <- knitr::kable(table_ex, -->
+<!-- kable(table_rep, -->
+<!--       digits = 2, -->
+<!--       align = "ll", -->
+<!--       format = "latex", -->
+<!--       row.names = FALSE, -->
+<!--       escape=FALSE, -->
+<!--       booktabs = T, -->
+<!--       linesep = "", # removes the blank line after every 5 lines -->
+<!--       caption = "Proposed studies for replication and Their relevance to tropical conservation, management, and policy. In tropical biology, as in many fields, it is often challenging to draw a direct link between a study and changes in policy. This is particularly true for studies testing general theories, even though they provide the essential template for “applied” studies with more obvious implications. The studies selected for replication both advance biological theory and inform - either directly or indirectly - policies for conserving and managing of tropical ecosystems and the services critical for human health and well-being they provide. ") %>%  -->
+<!--   column_spec (1, width="22cm") %>% -->
+<!--   # # # column_spec (1, width="2cm", bold = T) %>% -->
+<!--   # column_spec (2, width="18cm") %>% -->
+<!--   # column_spec (3, width="4.3cm") %>% -->
+<!--   # column_spec (4, width="4.3cm") %>% -->
+<!--   # column_spec (5, width="3cm") %>% -->
+<!--   # row_spec(0, bold = T, hline_after = FALSE, align="c") %>% -->
+<!--   # row_spec(2, hline_after = FALSE) %>% -->
+<!--   kable_styling( -->
+<!--     # bootstrap_options = c("hover"), -->
+<!--     # full_width = F, -->
+<!--     # latex_options = c("scale_down", "HOLD_position"), -->
+<!--     font_size = 8, -->
+<!--     position = "center") %>% -->
+<!--   pack_rows("Interspecific Interactions and Population Dynamics", 1, 4) %>% -->
+<!--   pack_rows("Tropical Environments and Organismal Responses to Environmental Conditions",5,6) %>% -->
+<!--   pack_rows("Species Diversity and Dynamics", 7,7) %>% -->
+<!--   pack_rows("Anthropogenic Impacts on Tropical Systems", 8,8) -->
+<!-- ``` -->
+
 
 <!-- \newsection{E} -->
-\indent
-\setlength{\parindent}{-.5in}
-\setlength{\leftskip}{0.5in}
+<!-- \indent -->
+<!-- \setlength{\parindent}{-.5in} -->
+<!-- \setlength{\leftskip}{0.5in} -->
+\elandscape
 
 
 
-<!-- TABLE 1. Examples of replications vs. generalizability tests with tropical systems. Replications in EBE were often characterized by how closely the species and location matched those of the original study1; we use the more conceptually generative definition of a replication: a study for which any outcome is diagnostic evidence of about a claim from prior research (Nosek & Errington 2020b).  -->
 
-<!-- 	Potential Replications	Generalizability Tests -->
-
-<!-- Approach	Duplicates the original experimental or sampling methods with the same species or populations in the original location.  -->
-<!-- 	Duplicates the original experimental or sampling methods using the same species or populations but in a different location. -->
-<!-- 	Tests of the same hypothesis using the original methods but in different species or systems -->
-<!-- 	Tests of the same hypothesis using new methods -->
-<!-- Examples using Janzen (1967)	Removal of Pseudomyrmex ferruginea from Vachellia cornigera (formerly Acacia) in Guanacaste National Park in Costa Rica. -->
-<!-- 	Removal of P. ferruginea from V. cornigera in Southern Mexico using original methods	Removal of P. ferruginea from V. collinsii using orginal methods or Removal of Crematogaster laevis ants from Tococa bullifera using methods based on the original study -->
-<!-- 	Comparing herbivory on plants after manipulating ant access to extrafloral nectaries  -->
-<!-- Examples using Dirzo et al. (1992)	Sample herb communities in gaps of different sizes and ages in the lowland forests of Los Tuxtlas, Mexico.	Sample herb communities in gaps of different sizes and ages in the lowland forests of the Maya Biosphere Reserve, Guatemala.	Sample herb communities in gaps of different sizes and ages in lowland forests of Borneo or Brazil using original methods or Sample herb communities in gaps of different sizes and ages in dry forests or cloud forests	Sample tree communities in gaps of different sizes and ages or Sample herb communities on landslides of different ages or sizes 
-
-1 e.g., "direct", "partial", or "conceptual" replication; reviewed in Kelly (2006), Nakagawa and Parker (2015), and Fidler et al. (2017).-->
+\newpage
 
 
+# References
+
+::: {#refs}
+:::
