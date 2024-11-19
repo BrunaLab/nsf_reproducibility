@@ -17,16 +17,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \newsection{I}
 
-Eu nunc risus massa in mauris facilisi nibh pulvinar sapien. Dis viverra ipsum, nulla finibus pharetra, interdum sodales. Nulla nisi nam et fames volutpat sem leo varius urna. Purus inceptos ridiculus maecenas porttitor. Sed eu faucibus eget ut, sed cum, efficitur quisque, et sociosqu finibus. Sit accumsan cursus varius. Cubilia, lorem ac nulla porta aliquam sed pharetra quam aptent gravida. Ut, mauris mi hendrerit quis interdum bibendum cum dapibus. Ante eros mollis tincidunt ante et ut fermentum habitant, nec fusce sociosqu eu ut integer adipiscing.
+FACILITIES, EQUIPMENT, & OTHER RESOURCES
 
 ## Your Department
 
-Eu nunc risus massa in mauris facilisi nibh pulvinar sapien. Dis viverra ipsum, nulla finibus pharetra, interdum sodales. Nulla nisi nam et fames volutpat sem leo varius urna. Purus inceptos ridiculus maecenas porttitor. Sed eu faucibus eget ut, sed cum, efficitur quisque, et sociosqu finibus. Sit accumsan cursus varius. Cubilia, lorem ac nulla porta aliquam sed pharetra quam aptent gravida. Ut, mauris mi hendrerit quis interdum bibendum cum dapibus. Ante eros mollis tincidunt ante et ut fermentum habitant, nec fusce sociosqu eu ut integer adipiscing.
+
 
 ## Facilities
 
-Eu nunc risus massa in mauris facilisi nibh pulvinar sapien. Dis viverra ipsum, nulla finibus pharetra, interdum sodales. Nulla nisi nam et fames volutpat sem leo varius urna. Purus inceptos ridiculus maecenas porttitor. Sed eu faucibus eget ut, sed cum, efficitur quisque, et sociosqu finibus. Sit accumsan cursus varius. Cubilia, lorem ac nulla porta aliquam sed pharetra quam aptent gravida. Ut, mauris mi hendrerit quis interdum bibendum cum dapibus. Ante eros mollis tincidunt ante et ut fermentum habitant, nec fusce sociosqu eu ut integer adipiscing.
+Laboratory Equipment: Bruna (UF) & Uriarte (Columbia): Bruna and Uriarte have >2000 sq. ft. labs with office space and equipment for the project staff. Bruna also has access to office and lab space at the Biological Dynamics of Forest Fragments Project (BDFFP) offices on the INPA campus, as well as access to the INPA library, herbarium, and shade-houses. 
+
+Office: Each PI has their own office, conference room, and space for visiting personnel. The Postdoc will use a shared office in Bruna’s Lab with all resources necessary to conduct the work.
 
 ## Resources & Equipment
 
-Eu nunc risus massa in mauris facilisi nibh pulvinar sapien. Dis viverra ipsum, nulla finibus pharetra, interdum sodales. Nulla nisi nam et fames volutpat sem leo varius urna. Purus inceptos ridiculus maecenas porttitor. Sed eu faucibus eget ut, sed cum, efficitur quisque, et sociosqu finibus. Sit accumsan cursus varius. Cubilia, lorem ac nulla porta aliquam sed pharetra quam aptent gravida. Ut, mauris mi hendrerit quis interdum bibendum cum dapibus. Ante eros mollis tincidunt ante et ut fermentum habitant, nec fusce sociosqu eu ut integer adipiscing.
+**Computers and software:** We have UF-approved, secure cloud-based storage for project members to save and share files. Although the PIs have computers and networked laser printers for their use, we are requesting funds to help defray the purchase of a computer to be used by the postdoc. We use open-source software for most of our data management, analysis, writing, and programming (e.g., Zotero, R, Open Science Framework), but we have access to most any other software we might need via the UF Computing licenses (e.g., ArcGIS, Microsoft Office suite). Programming Consultants, data storage, and additional computing resources (e.g., core use) are available through the UF Informatics Institute.
+
+**Logistical Support. Brazil:** The BDFFP provides logistical support needed for fieldwork, including transportation to the sites, room & board while in the field, and help obtaining visas and permits. USA: Logistical support in the US, including coordination with the BDFFP for issuing visas and permits and translation of documents, will be provided by UF's Florida-Brazil Linkage Institute (FBLI; http://www.floridabrazil.org), of which Bruna is Director. 
+
+**Field Sites:** Forest Fragment and Continuous Forest Reserves: The BDFFP is jointly administered by INPA and the Smithsonian Tropical Research Institute. In the >35 years since founded, BDFFP researchers have published ~ 600 articles, developed several field courses now taught annually, and established the BDFFP as one of the longest-running and most productive sites in which to conduct research in the tropics. Access to the reserves is from permanent camps, most of which have running water, generators, shade-houses, and space for processing samples and other basic research. Cars deliver supplies and transfer researchers among camps or to/from Manaus 3x per week. The reserves in which our plots are found were isolated in the mid-1980’s and since then have been isolated every 5-7 years by clearing the vegetation regenerating around fragments. Between 2005-2010 the strengthening of the Brazilian currency against the US dollar led the BDFFP to pass through a financial crisis that delayed the clearing around the reserves for several years (most of the BDFFP funding at the time was in US Dollars). Since then the Brazilian Real has declined in value and the BDFFP has diversified it’s funding base – it is now debt-free. This means the secondary growth surrounding fragments will continue to be cleared on schedule. 
+
+**UF’s Harn Museum of Art** has a collection with >10,000 objects including African, Asian, modern and contemporary art, and photography with significant representations of Ancient American and oceanic art, as well as a growing collection of natural history works on paper.
+

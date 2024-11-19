@@ -1,0 +1,36 @@
+---
+title: "Emilio Bruna"
+date: "\\vspace{-3em}"
+output: 
+  pdf_document:
+   includes:
+    in_header: style/preamble.tex
+   template: null
+   keep_tex: no
+   number_sections: false
+documentclass: style/nsf2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Docs from Each PI
+
+1. Biosketch (prepared online using scienv platform: https://www.ncbi.nlm.nih.gov/sciencv/)
+1. Collaborators and Other Affiliations in excel template. To more easily get list of coauthors use: https://github.com/BrunaLab/coauthors_nsf
+1. Synergistic Activities (now split off from biosketch)
+1. Current and Pending
+1. Facilities
+1. Budget Justification1. 
+
+- Additional details here: https://new.nsf.gov/funding/senior-personnel-documents
+
+## Other Docs
+
+1. Postdoc Plan
+1. DMP
+1. Project Description
+1. Project Summary
+1. references Cited
+

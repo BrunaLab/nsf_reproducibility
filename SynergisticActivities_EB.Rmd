@@ -1,0 +1,35 @@
+---
+title: "Emilio Bruna"
+date: "\\vspace{-3em}"
+output: 
+  pdf_document:
+   includes:
+    in_header: style/preamble.tex
+   template: null
+   keep_tex: no
+   number_sections: false
+documentclass: style/nsf2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Synergistic Activities
+
+**Name:** Bruna, Emilio M.  
+**ORCID iD:** 0000-0003-3381-8477   
+**Position Title:** Professor and Distinguished Teaching Scholar  
+**Primary Organization and Location:** University of Florida (Gainesville, FL USA)   
+
+----
+
+1. I served as for six years as the **Editor-in-Chief of the journal _Biotropica_**. During my term I supervised the review of over >2600 submissions and the publication of ~ 600 articles. I also assembled the most geographically and demographically diverse Editorial Board among Eco/Evo journals, proposed & successfully implemented mandatory data archiving and a preprint policy, created a new award for the Outstanding Article by a Student, negotiated funds for gratis language editing of accepted manuscripts, modernized journal operations & adopted TOP Guidelines, and advocated for making scientific publishing more globally inclusive.
+
+2. I served two terms on the **Board of Directors of the Dryad Digital Repository** (http://datadryad.org/), whose mission is to provide the infrastructure for and promote the re-use of data underlying the scholarly literature. In support of these efforts and Dryad’s mission, **data sets from my NSF-funded research are archived and publicly available at Dryad**, with code for the resulting articles archived at Zenodo and available for review at GitHub. 
+
+3. I help support research and education, including international opportunities for early career scientists, by serving the scientific community as a **leader in professional organizations.** I was **elected Councilor and then President of the Association for Tropical Biology & Conservation.** During my terms I organized the establishment the Student & Early Career Chapter, worked with Exec. Director & Council to pivot 2021 Conference online, Drafted ATBC’s statement on sexual harassment at STRI, Authored & implemented ATBC’s Conflict-of-Interest Policy, Drafted proposed Code of Professional Ethics with representatives of the ASN, SSE, and SSB, and proposed a Reproducibility Initiative for Tropical Biology. In collaboration with UF Librarians I am currently preparing materials to establish the ATBC Archives at the UF Library’s Latin American Collection. I currently serve as a **Member of the Governing Board and Secretary of the Ecological Society of America**.
+
+4. Since 2002 I have been a **Core Faculty Member in the UF Tropical Conservation and Development (TCD) Program**, whose mission is to advance biodiversity conservation, sustainable resource management, and the welfare of rural people in the tropics through interdisciplinary graduate education, research, and collaborative learning. My teaching for this program includes **developing new courses on Data Management, Reproducible Research, and Open Science** for TCD students with backgrounds in the social sciences and humanities.
+
+5. **Advising & Mentorship:** My advising and mentoring efforts emphasize the importance of international cooperation and broadening participation. In addition to advising students at UF, I have co-advised graduate students in Brazil (N = 8) and served as an external examiner for theses and member of thesis defense committees (> 30 students from 5 internation institutions). I have also presented >25 seminars and taught 6 courses at foreign universities.  
