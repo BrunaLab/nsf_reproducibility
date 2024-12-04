@@ -54,7 +54,8 @@ library(kableExtra)
 > - Amir Erez: https://warrington.ufl.edu/directory/profiles/5084/
 > - Gwendolyn Lee: https://warrington.ufl.edu/directory/profiles/5067/  
 
-    
+5. Potential Partner co-funding projects in Brazil: [Inst. Serrapilheira](https://serrapilheira.org/en/). Contact is [Kleber Neves](https://serrapilheira.org/en/team/) (co-founder of Brazilian Reproducibility Initiative)
+  
 **B. Approach: how many & which replications**
 
 1. Open call to replicate any from list of 10, **OR** 
@@ -110,12 +111,7 @@ library(kableExtra)
 
 <!-- The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation. -->
 
-**_TO DO:_** _The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation._  
-
-<!-- Reproducing the results and conclusions of prior studies is a fundamental method for advancing scientific research.  In many biological disciplines, repeating prior studies has been a standard research and training method for decades. In others, however, there has not been this widespreaad adoption of replication. -->
-
-**We are proposing to assess the potential value of Replication as a method for advancing the understanding of ecology. **
-
+Reproducing the outcome of prior studies is a fundamental method for advancing scientific research. While replications are often conducted to confirm experimental results, they also lead to conceptual advances by providing data with which scientists refine classical theories and accelerate the development of novel ones. While biologists in lab-based disciplines are increasingly embracing replication as a research method, those in ecology and other field-based disciplines have been reluctant to do so. _We are proposing to design and assess the methods for replicating field-based studies._ We will do so by supporting, coordinating, and evaluating the replication of (five?) fundamental field-based studies in sites across the globe. This project will advance biology in three ways: first, by providing data with which the scientific community can directly assess Replication's value as a method for making conceptual advances. Second, by testing and refining the infrastructure required to implement Replications, including individual and institutional incentives, training, publications, and tools for collaboration and data management. Most importantly, it could lead to the adoption of replication as an integral method for conducting rigorous, field-based research. This would catalyze a transformative cultural change in a scientific discipline central to studying the impact of human activities on biodiversity and ecosystem services.
 
 ## CONCEPTUAL FRAMEWORK 
 
