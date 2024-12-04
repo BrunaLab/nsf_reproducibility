@@ -16,6 +16,10 @@ biblio-style: apalike
 header-includes:
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
+  
+nocite: |
+  @augspurgerSeedDispersalTropical1983; @brunaSeedGerminationRainforest1999; @carvalhoForestFragmentationCentral1999; @chazdonPhotosyntheticLightEnvironments1984; @coleyHerbivoryDefensiveCharacteristics1983; @denslowGapPartitioningTropical1980; @ewelLitterFallLeaf1976; @gentryContributionNontreesSpecies1987; @jankowskiBetaDiversityEnvironmental2009; @janzenInteractionBullshornAcacia1967a; @marquisLeafHerbivoresDecrease1984; @menkePlantfrugivoreNetworksAre2012; @ryanSexualSelectionCommunication1983; @kitajimaRelativeImportancePhotosynthetic1994
+  
 ---
 
 ```{r GlobalOptions, include = FALSE}
@@ -40,7 +44,11 @@ library(kableExtra)
 
 ## TBD for Reproducibility Grant
 
-**A. Follow-up: Potential Partners / Co-PIs / Senior Personnel**  
+### Proposal Ideas
+
+1. Consider having 2-3 replication by the PIs already identified for implementation in Year 1. Then in Year 2, once the word has spread and we can show how it would work, we can recruit PIs to do 2-3 of the others on the list. This guarantees we get the ball rolling in Yr 1 (my concern is limited volunteering for 'risky' project unless proof of concept).
+
+### Follow-up: Potential Partners / Co-PIs / Senior Personnel
 
 1. ATBC
 2. EiC _Biotropica_
@@ -54,15 +62,17 @@ library(kableExtra)
 > - Amir Erez: https://warrington.ufl.edu/directory/profiles/5084/
 > - Gwendolyn Lee: https://warrington.ufl.edu/directory/profiles/5067/  
 
-    
-**B. Approach: how many & which replications**
+5. Potential Partner co-funding projects in Brazil: [Inst. Serrapilheira](https://serrapilheira.org/en/). Contact is [Kleber Neves](https://serrapilheira.org/en/team/) (co-founder of Brazilian Reproducibility Initiative)
+
+### Approach: how many & which replications
 
 1. Open call to replicate any from list of 10, **OR** 
 2. Line up commitments in advance to replicate 3-5 specific projects, **OR** 
 3. Hybrid Approach: have 2-3 lined up in advance for 1st Round, then Open Call once Project is established **AND/OR**
 4. Involvement of OTS or other repeated field courses (e.g., Guanacaste for _Acacia_)?
-      
-**C. Activities**  
+   
+
+### Activities  
 
 1. Replication Grants (administered by ATBC)
 1. ATBC Symposium or Session to Introduce Project 
@@ -70,7 +80,7 @@ library(kableExtra)
 1. Meta-analysis workshop with Replication Leaders
 1. Assessment
 
-**D. Personnel / Financial**  
+### Personnel / Financial  
 
 1. EB & SC: Project Oversight, Workshops
 1. Assessment PI
@@ -79,7 +89,7 @@ library(kableExtra)
 1. _Biotropica_ Editor (publication oversight)
 1. Replication Leaders: Established Researchers? Postdocs or GAs leading 1-2 replications?
 
-**E. Financial**  
+### Financial  
 
 1. PI Salary Support: EB, SC, Assessment PI, BN?
 2. Postdocs or GAs 
@@ -89,7 +99,7 @@ library(kableExtra)
 > - bank fees
 > - stipends for Editor and Treasurer for additional work
 > - stipends to incentivize Replication Leaders
- 
+
 5. Travel to Meetings & Workshop Materials
 6. Dryad and Publication Fees  
 
@@ -110,12 +120,7 @@ library(kableExtra)
 
 <!-- The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation. -->
 
-**_TO DO:_** _The first paragraph of the project description should provide a concise, clear description of the proposed infrastructure innovation that will be developed under this award. It should describe, using a minimum of specialized language, what the infrastructure will consist of, how the proposed innovation will provide unique infrastructure or significantly improve upon existing infrastructure, and what science will be advanced through this infrastructure innovation. Specific attention should be paid to the anticipated impact on the community served by the proposed innovation._  
-
-<!-- Reproducing the results and conclusions of prior studies is a fundamental method for advancing scientific research.  In many biological disciplines, repeating prior studies has been a standard research and training method for decades. In others, however, there has not been this widespreaad adoption of replication. -->
-
-**We are proposing to assess the potential value of Replication as a method for advancing the understanding of ecology. **
-
+###### Reproducing the outcome of prior studies is a fundamental method for advancing scientific research. While replications are often conducted to confirm experimental results, they also lead to conceptual advances by providing data with which scientists refine classical theories and accelerate the development of novel ones. While biologists in lab-based disciplines are increasingly embracing replication as a research method, those in ecology and other field-based disciplines have been reluctant to do so. _We are proposing to design and assess the methods for replicating ecological studies._ We will do so by supporting, coordinating, and evaluating the replication of fundamental field studies in sites across the globe. This project will advance biology in three ways: first, by providing data with which the scientific community can directly assess Replication's value as a method for making conceptual advances. Second, by testing and refining the infrastructure required to implement Replications, including individual and institutional incentives, training, publications, and tools for collaboration and data management. Most importantly, it could lead to the adoption of replication as an integral method for conducting rigorous, field-based research. This would catalyze a transformative cultural change in a scientific discipline central to studying the impact of human activities on biodiversity and ecosystem services.
 
 ## CONCEPTUAL FRAMEWORK 
 
@@ -123,67 +128,56 @@ A hallmark of science is replicability [@voelklReproducibilityAnimalResearch2020
 
 A surge of efforts to replicate the results of fundamental studies in fields ranging from chemistry [@bergmanReproducibilityChemicalResearch2016] to the biomedical sciences [@amaralBrazilianReproducibilityInitiative2019; @erringtonOpenInvestigationReproducibility2014] reflects a general concern that this core principle of science may not be operating as well as expected in practice. For example, the Open Science Collaboration @collaborationEstimatingReproducibilityPsychological2015 replicated 100 psychology findings and observed successful replication of results for less than 40% of them. Observing differences between original studies and replications can be beneficial, however, by leading to the development of generative theory to account for the observed differences. For example, in exploring a failure to replicate one could identify previously unappreciated factors critical for observing the phenomenon of interest [@collaborationEstimatingReproducibilityPsychological2015]. Of course, it is also possible that the original result was a false positive, in which case nothing would explain why the original study observed a finding but the replication did not. Over time replications either build confidence in and mature the theoretical understanding of a phenomenon, or they render the finding irrelevant because the conditions for demonstrating replicability cannot be identified [@nosekWhatReplication2020].   
 
-Field-based sciences such as Ecology, Behavior, and Evolution (EBE) could benefit from promoting replication [@fidlerMetaresearchEvaluatingReproducibility2017; @huangReproducibilityEcologicalResearch2014; @kellyReplicatingEmpiricalResearch2006; @nakagawaReplicatingResearchEcology2015], but the response of the EBE community to calls for adopting this research infrastructure has ranged from tepid to skeptical [@editorsEcologyLettersTransparency2016; @schnitzerWouldEcologyFail2016]. The reasons put forward by field biologists for not conducting replications echo the practical concerns put forward by scientists in other fields: a lack of incentives or professional rewards for carrying out replications, journals unwilling to publish the results of replicated studies, and concerns about efficient use of scarce research funding [@fidlerMetaresearchEvaluatingReproducibility2017; @nakagawaReplicatingResearchEcology2015; @schnitzerWouldEcologyFail2016]. However, many also suggest a more fundamental and conceptual obstacle – that research in EBE is inherently impossible to replicate because it is carried out under unique biotic and abiotic conditions [@nakagawaReplicatingResearchEcology2015; @schnitzerWouldEcologyFail2016]. 
+Field-based sciences such as Ecology, Behavior, and Evolution (EBE) could benefit from promoting replication [@fidlerMetaresearchEvaluatingReproducibility2017; @huangReproducibilityEcologicalResearch2014; @kellyReplicatingEmpiricalResearch2006; @nakagawaReplicatingResearchEcology2015], but the response of the EBE community to calls for adopting this research infrastructure has ranged from tepid to skeptical [@editorsEcologyLettersTransparency2016; @schnitzerWouldEcologyFail2016; @ivesInformativeIrreproducibilityUse2018]. The reasons put forward by field biologists for not conducting replications echo the practical concerns put forward by scientists in other fields: a lack of incentives or professional rewards for carrying out replications, journals unwilling to publish the results of replicated studies, and concerns about efficient use of scarce research funding [@fidlerMetaresearchEvaluatingReproducibility2017; @nakagawaReplicatingResearchEcology2015; @schnitzerWouldEcologyFail2016]. However, many also suggest a more fundamental and conceptual obstacle – that research in EBE is inherently impossible to replicate because it is carried out under unique biotic and abiotic conditions [@nakagawaReplicatingResearchEcology2015; @schnitzerWouldEcologyFail2016].  Ironically, this skepticism is accompanied by the embrace of “distributed experiments” [@borerFindingGeneralityEcology2014; @fraserCoordinatedDistributedExperiments2013], in which the same experimental manipulation is simultanously replictaed at geographically and ecologically disparate locations [e.g., @romeroExtremeRainfallEvents2020].
 
-_To be clear, there is no such thing as exact replication, regardless of discipline and research context_. There will always innumerable differences resulting from changes in season, laboratory conditions, historical circumstances, or the identity of participants. This is certainly true in an EBE context, in which the biotic and abiotic conditions under which field studies are conducted will never be identical. But scientific claims are not historical ones, for which a finding is presumed to apply only in the original context. Scientific claims are statements about regularities one expects to observe across contexts when certain conditions are met. That is why replication is formally defined as attempting to reproduce a previously observed result with procedures that provide no a priori reason to expect a different outcome [@collaborationEstimatingReproducibilityPsychological2015; @nosekChallengesReplication2017; @schmidtShallWeReally2009]. This is why replications in EBE do not have to be conducted under biotic and abiotic conditions identical to those of the original study; given our present understanding of the phenomenon, the new environmental context should not reveal something different from the original one [@nosekWhatReplication2020]. Of course, the ‘present understanding’ can be wrong, which is why a replication that does not produce the same finding as the original study can be so useful for testing and advancing theory – it forces one to assess whether the original study could have been a false positive, if the replication might have been a false negative, or to generate hypotheses for why the studies had different outcomes. This assessment may be especially important in the context of management or conservation, where one seeks confidence in the original conclusions, rather than broad theoretical generality.  
+To be clear, there is no such thing as exact replication, regardless of discipline and research context. There will always innumerable differences resulting from changes in season, laboratory conditions, historical circumstances, or the identity of participants. This is certainly true in an EBE context, in which the biotic and abiotic conditions under which field studies are conducted will never be identical. But scientific claims are not historical ones, for which a finding is presumed to apply only in the original context. Scientific claims are statements about regularities one expects to observe across contexts when certain conditions are met. That is why replication is formally defined as attempting to reproduce a previously observed result with procedures that provide no a priori reason to expect a different outcome [@collaborationEstimatingReproducibilityPsychological2015; @nosekChallengesReplication2017; @schmidtShallWeReally2009]. This is why replications in EBE do not have to be conducted under biotic and abiotic conditions identical to those of the original study; given our present understanding of the phenomenon, the new environmental context should not reveal something different from the original one [@nosekWhatReplication2020]. Of course, the ‘present understanding’ can be wrong, which is why a replication that does not produce the same finding as the original study can be so useful for testing and advancing theory – it forces one to assess whether the original study could have been a false positive, if the replication might have been a false negative, or to generate hypotheses for why the studies had different outcomes. This assessment may be especially important in the context of management or conservation, where one seeks confidence in the original conclusions, rather than broad theoretical generality.  
 
-_Moreover, it is important to emphasize that a study can indeed be replicated with a different species or in a different location_ [reviewed in @fraserRoleReplicationStudies2020; @nakagawaReplicatingResearchEcology2015]. If the original claim is explicitly bounded by geography or species identity, then to qualify as a replication the methodology must respect those restrictions. If the original claim is more general, however, then the replication can in theory transcend geography and species identity within limits concordant with the extent of the original claim’s generality (Table 1). While replications are perhaps most straightforward to conceptualize when using species and methods identical to those in original study, they can be conducted with other systems if the replication design actively confronts the present understanding with a test that provides diagnostic information increasing or decreasing confidence in the original claim. Put another way, a replication is a theoretical commitment to specify a study design for which one expects the same outcome as the prior findings given our understanding of the phenomenon of interest [@nosekWhatReplication2020].
+Moreover, it is important to emphasize that a study can indeed be replicated with a different species or in a different location [reviewed in @fraserRoleReplicationStudies2020; @nakagawaReplicatingResearchEcology2015]. If the original claim is explicitly bounded by geography or species identity, then to qualify as a replication the methodology must respect those restrictions. If the original claim is more general, however, then the replication can in theory transcend geography and species identity within limits concordant with the extent of the original claim’s generality (Table 1). While replications are perhaps most straightforward to conceptualize when using species and methods identical to those in original study, they can be conducted with other systems if the replication design actively confronts the present understanding with a test that provides diagnostic information increasing or decreasing confidence in the original claim. Put another way, a replication is a theoretical commitment to specify a study design for which one expects the same outcome as the prior findings given our understanding of the phenomenon of interest [@nosekWhatReplication2020].
 
 That said, expanding the domain of valid replications to include novel systems is conceptually exciting but  requires exceptional rigor and _a priori_ consensus regarding the study design and expected outcomes [@nosekWhatReplication2020]. This challenge is further exacerbated if the theoretical expectations of the original study are underspecified, making it unclear if the claim should in fact recur in different locations or species. Ambiguous expectations lead to asymmetric inference – while observing consistent evidence builds confidence in the original finding, failing to do so doesn’t decrease confidence. Such asymmetric tests are therefore not replications. They are tests of generalizability [@nosekWhatReplication2020], which are useful for understanding the breadth and boundaries of a phenomenon but do not directly confront the original conclusion.  In fields that have historically emphasized tests of generalizability, such as EBE, positive results can appear to establish the broad applicability of a phenomenon without ever actually testing its replicability – especially given the biases against publication of null results [reviewed in @fidlerMetaresearchEvaluatingReproducibility2017]. Advancing theory in our discipline requires both testing predictions in new systems and assessing the validity of studies on which theory was built by attempting to replicate them [@casseyReproducibilityRepeatabilityEcology2006; @fidlerMetaresearchEvaluatingReproducibility2017; @fraserQuestionableResearchPractices2018]. 
 
 ## PROPOSED INNOVATION IN RESEARCH INFRASTRUCTURE  
 
-**Shifting the current EBE research paradigm towards one in which Replication is a broadly adopted method will require an innovative infrastructure for (1) incentivizing, conducting, and publishing replications** [@fidlerMetaresearchEvaluatingReproducibility2017; @nakagawaReplicatingResearchEcology2015]. It will also require **(2) training** on the theory and practice of this method, **(3) evidence** of the potential for replications to advance scientific understanding [@fraserRoleReplicationStudies2020], and **(4) an assessment of community response**, including potential barriers to adopting replication _even if shown to be intellectually and professionally valuable_. 
+There have been prior efforts to assess the reproducibility of published analyses (i.e., 'computational reproducibility';  @archmillerComputationalReproducibilityWildlife2020; @kambourisComputationallyReproducingResults2024) or use statistical methods to infer confidence in the reproducibility of published studies [@yangLargescaleSilicoReplication2024]. **We are proposing the Reproducibility Project in Tropical Biology** - the first field-based effort to design and evaluate replications as research method for EBE. The _ultimate goals of our Reproducibility Project are_ **(1)** to determine the extent of reproducibility in a sample of the ecological literature, **(2)** to identify obstacles to conducting effective replications (e.g., a lack of methodological detail in the original study, the extinction of species or loss of study site, changes in environmental conditions, or advances in methods for sampling or analysis), **(3)** to  quantify predictors of replication success (e.g., the location, ecosystem, or species with which the experiment was conducted, the extent to which the original study system has been altered by human activities), and **(4)** to identify aspects of experiments that are/are not critical to a successful replication (e.g., study species or location, specific characteristics of the sample, details regarding the materials or methods). **This proposal is the critical _first step_ towards achieving these goals - it will shift the current EBE research paradigm towards one in which Replication is a broadly accepted research method**. **To do so we are proposing to:**
 
-We are proposing to develop, test, and assess this infrastructure by coordinating the Reproducibility Project in Tropical Biology -– the first such effort in environmental biology. **The Project has five primary objectives:**
+1. **Develop the infrastructure for incentivizing, conducting, and publishing replications** of ecological field studies [@fidlerMetaresearchEvaluatingReproducibility2017; @nakagawaReplicatingResearchEcology2015], including **training** on the theory and practice of this research method,
 
-1.  To determine the extent of reproducibility in a sample of the fundamental literature in Tropical Biology
+2. **Provide evidence** of the potential for replications to advance scientific understanding [@fraserRoleReplicationStudies2020], and 
 
-2.  To identify obstacles to conducting effective replications, including such factors as failure to detail methodology in the original study, the extinction of species or loss of study site, changes in local, landscape, or global environmental conditions, advances in sampling technology, statistics and computational tools, analytical methods, etc.
-
-3.  To quantify predictors of replication success, such the location, ecosystem, and species with which the experiment was conducted and the extent to which the original study site and system has been modified by human activities
-
-4.  To identify aspects of the experiment that are/are not critical to a successful replication, such as study species or location, specific characteristics of the sample, or details of the materials and methods.
-
-5.  To advance the training of early-career scientists and collaboration among tropical biologists, especially the training of students in developing countries, North-South and South-South collaborations, and collaborations between Early-Career and Senior Scientists through conducting replications and training of researchers in open and reproducible research methods at societal meetings.
-
-To address these obbjectives we have assembled a team that brings together leaders from the different stakholders fundamental to the intitiave's success: researchers, a scholarly society that supports international research and capacity building, a leading disciplinary journal with a history of innovation, and experts in the implementation of reproducibility initiatives.
+3. **Assess the infrastructure and its community impact**, including continued hesitation to adopt replications _even if shown to be intellectually and professionally valuable_. 
 
 
 ## IMPACT ON THE RESEARCH COMMUNITY
 
-
-**_TO DO:_** _This section of the project description should address the biological user community impacted by the proposed effort and provide evidence of the need for the proposed innovation as compared to existing capabilities. Proposals should also explicitly state how the proposed work will advance the capabilities of the biological research community as it specifically relates to the research as supported by the divisions within the NSF’s Directorate for Biological Sciences._
+  > **_TO DO:_** _This section of the project description should address the biological user community impacted by the proposed effort and provide evidence of the need for the proposed innovation as compared to existing capabilities. Proposals should also explicitly state how the proposed work will advance the capabilities of the biological research community as it specifically relates to the research as supported by the divisions within the NSF’s Directorate for Biological Sciences._
 
 **Biological User Community**
 
 
-**_Our project will have four major impacts on the science and scientific culture of the research community_.** **First**, there is the **_knowledge gained_** by replicating the foundational studies. Are the results of these studies similar when replicated decades later and in new locations? If not, are the new results qualitatively similar, equivocal, or contradictory? Do we have to revisit alternative hypotheses and conduct new research in light of the replication results? In answering these questions, the participants in our project will make major conceptual advances: they will both test and refine classical theories and accelerate the development of novel ones.
+**_Our project will advance the capabilities of the biological research community in four major ways_.** **First**, there is the **biological knowledge gained** by replicating the foundational studies. Are the results of these studies similar when replicated decades later and in new locations? If not, are the new results qualitatively similar, equivocal, or contradictory? Do we have to revisit alternative hypotheses and conduct new research in light of the replication results? In answering these questions, the participants in our project will make major conceptual advances: they will both test and refine classical theories and accelerate the development of novel ones.
 
-**Second**, this initiative will drive an important **_change in scientific culture_**. The impediments to replicating prior work are the same in field biology as they are in other disciplines - limited financial resources, skepticism regarding the extent of a ‘reproducibility crisis’, and a culture emphasizing novelty, often at the expense of rigor. We expect our results will demonstrate to this community of scholars why replication is essential, promote a vigorous discussion about the studies that are most urgent to replicate in light of the theoretical and applied impacts, and provide guidance for designing and describing studies that can be readily replicated. Our ambition is that tropical biology undergo a transformative change in scientific culture, with replication and reproducibility becoming integral components of rigorous research.
+**Second**, this initiative will drive **an important and positive change in scientific culture**. The impediments to replicating prior work are the same in field biology as they are in other disciplines - limited financial resources, skepticism regarding the extent of a ‘reproducibility crisis’, and a culture emphasizing novelty, often at the expense of rigor. We expect our results will demonstrate to this community of scholars why replication is essential, promote a vigorous discussion about the studies that are most urgent to replicate in light of the theoretical and applied impacts, and provide guidance for designing and describing studies that can be readily replicated. Our ambition is that tropical biology undergo a transformative change in scientific culture, with replication and reproducibility becoming integral components of rigorous research.
 
-**Third**, our initiative will have a **_global impact on the training of students and early career scientists_**. Students conducting reproducibility trials as part of their senior theses, in field courses, or as part of their graduate research will immerse themselves in our field’s fundamental studies and conduct rigorous research and analyses under the mentorship of senior colleagues. This enhanced training and the resulting publications - which in most cases would likely not be possible without the financial support and incentive from this project - will accelerate their development as scientists and strengthen their professional network through international collaboration and engagement with the ATBC. It is also a critical element of transforming the culture of tropical biology - while more senior scientists are often resistant to the emerging culture of Open Science, Early Career Scholars are more receptive to it, aware of its benefits, and eager to learn the requisite skills required to broadly share research protocols and results.
+**Third**, our initiative will **train a cadre of early career scientists in methods to conduct reproducible and open science**. Students conducting reproducibility trials as part of their senior theses, in field courses, or as part of their graduate research will immerse themselves in our field’s fundamental studies and conduct rigorous research and analyses under the mentorship of senior colleagues. This enhanced training and the resulting publications - which in most cases would likely not be possible without the financial support and incentive from this project - will accelerate their development as scientists and strengthen their professional network through international collaboration and engagement with the ATBC. It is also a critical element of transforming the culture of field biology - while more senior scientists are often resistant to the emerging culture of Open Science, Early Career Scholars are more receptive to it, aware of its benefits, and eager to learn the requisite skills required to broadly share research protocols and results.
 
-**Finally**, field-based sciences such as tropical biology face unique and inherent challenges to reproducibility from which many lab-based disciplines are buffered. This poses important philosophical questions about reproducibility, including fundamental ones such as what it means to ‘reproduce’ a study, if our goals should be replication or reproduction, and if replication is even possible. Our project is not the first to broach these questions, but it is the first in which they figure so prominently. The resulting dialogue between teams within and across reproducibility initiatives will **_advance our understanding of science, its practice, and the consequences for science’s relationship to society_**.
+**Finally**, field-based sciences such as tropical biology face unique and inherent challenges to reproducibility from which many lab-based disciplines are buffered. This poses important philosophical questions about reproducibility, including fundamental ones such as what it means to ‘reproduce’ a study, if our goals should be replication or reproduction, and if replication is even possible. Our project is not the first to broach these questions, but it is the first in which they figure so prominently. **The resulting dialogue between teams within and across reproducibility initiatives will advance our understanding of science, its practice, and the consequences for science’s relationship to society**.
 
 ## PROJECT IMPLEMENTATION, MANAGEMENT, & EVALUATION
-<!-- This section should describe the planned activities, including the design of the proposed innovation, performance metrics, the biological research motivations for performance criteria, and how the design plan derives from these motivations. This section should also include a discussion of the expected results and a risk assessment with alternative approaches should the proposed favored approach fail. The development plan should contain sufficient detail to allow assessment of the feasibility of the innovation and the potential success of the project. Included in this section should be details of a timeline for assessing development objectives. --> 
 
-**IMPLEMENTATION OF THE RP-TB:** Below we describe the activities for building and assessing the infrastructure for implementing and testing Reproducibility as a Research Method:    
+  > **_TO DO:_** _This section should describe the planned activities, including the design of the proposed innovation, performance metrics, the biological research motivations for performance criteria, and how the design plan derives from these motivations. This section should also include a discussion of the expected results and a risk assessment with alternative approaches should the proposed favored approach fail. The development plan should contain sufficient detail to allow assessment of the feasibility of the innovation and the potential success of the project. Included in this section should be details of a timeline for assessing development objectives._ 
 
-**_(1) Incentivizing, Conducting, and Publishing Replications_**
+**IMPLEMENTATION OF THE RP-TB:** Below we describe the partners and process with which we will build and assess the infrastructure for implementing and testing Reproducibility as a Research Method. Our approach is informed by surveys of the ecological community indicating the types of studies that for which replications would be most informative and the primary obstacles to their implementation [@fraserRoleReplicationStudies2020].
 
-In Year 1 we will solicit and select Principal Investigators (PIs) to guide the replication of five studies on our priority list. These PIs – with the assistance of the Center for Open Science, an ATBC Committee, and  _Biotropica_'s Editors – would develop and post the guidelines for replicating a study, including the protocols, materials required for data collection, and scripts for data validation and statistical analyses to be used by participating researchers. The ATBC would then help PIs recruit a network of researchers in different locations to replicate the study. 
+***Studies selected for Replication:*** We consulted with a geographically and professionally diverse group of tropical biologists to identify fifteen studies that for replication because of their importance to either the theoretical underpinnings of our field or because their replication's value to advancing the conservation and management of tropical ecosystems . All of these studies use methods that are readily replicated with widely available, low-cost materials *(Table ---)*.  
+
+**_(1) Incentivizing, Conducting, and Publishing Replications:_** In Year 1 we will solicit and select Principal Investigators (PIs) to guide the replication of five studies on our priority list. These PIs – with the assistance of the Center for Open Science, an ATBC Committee, and  _Biotropica_'s Editors – would develop and post the guidelines for replicating a study, including the protocols, materials required for data collection, and scripts for data validation and statistical analyses to be used by participating researchers. The ATBC would then help PIs recruit a network of researchers in different locations to replicate the study. 
 
 Implementing a local replication requires working with the PI’s to pre-register the study [@chambersInsteadPlayingGame2014a; @nosekRegisteredReportsMethod2014] with  _Biotropica_'s Editorial Board, which peer reviews the design and provisionally accepts a Registered Report for publication prior to any data collection. This model, which has been adopted by a number of journals participating in Reproducibility Projects (see https://cos.io/rr), both enhances the credibility of projects and provides incentive for participation because it guarantees publication of results regardless of statistical significance or magnitude of the effects [@chambersInsteadPlayingGame2014a; @nosekRegisteredReportsMethod2014]. Moreover, this model facilitates engagement of experts in the design of the methodology and leads to consensus on what constitutes a replication test of a study before the results are known [@nosekArgueWhatReplication2020]. This is valuable both for improving the quality of replication designs and to address the potential for pre-existing beliefs to motivate accepting or dismissing a replication’s outcome. Once the data have been collected, the PI’s will work with the research teams to analyze and archive it and prepare the results-included Registered Report for submission to _Biotropica_.  
 
-When all of the replications have been completed, the PIs will conduct a meta-analysis of the entire network’s results – also to be published in _Biotropica_ – with all network members as co-authors. We anticipate these meta-analyses will be high-impact advances given the geographic scope, methodological consistency, and the conceptual importance to the field of the selected studies. That all participants would be authors or co-authors of two publications irrespective of their replication’s outcome is a critical incentive we hope would encourage those who might otherwise be hesitant about repeating the work of others to participate.
 
-**_(2) Training_**
+**_(2) Evidence of the potential for replications to advance scientific understanding_**: When all of the replications have been completed, the PIs will conduct a meta-analysis of the entire network’s results – also to be published in _Biotropica_ – with all network members as co-authors. We anticipate these meta-analyses will be high-impact advances given the geographic scope, methodological consistency, and the conceptual importance to the field of the selected studies. That all participants would be authors or co-authors of two publications irrespective of their replication’s outcome is a critical incentive we hope would encourage those who might otherwise be hesitant about repeating the work of others to participate.
 
-**_(3) Evidence of the potential for replications to advance scientific understanding_**
-
-**_(4) Assessment Community Response_**
+**_(3) Assess the infrastructure and its community impact_**
 
 
 <!-- Stage Two (years 5-10) would expand the Reproducibility Project by inviting researchers from ATBC’s global community of members to either replicate other studies on the proposed list or nominate alternative studies they deem critical for replication. These proposed replications could either be conducted by networks or by individual researchers wishing to implement the approved protocols of important studies that at their field sites. Stage 1 would demonstrate to the community that replication is straightforward to implement, yields novel insights, and has tangible professional benefits. Stage 2 would consolidate a cultural shift in which replication is viewed as integral to research and training in tropical biology and stimulate the community to identify studies they view as worthy of replication. -->
@@ -197,22 +191,27 @@ When all of the replications have been completed, the PIs will conduct a meta-an
 
 **_Roles and Responsibilities of Key Personnel_**
 
+
+
+The Association for Tropical Biology and Conservation and COS are the ideal institutions to implement this initiative. With over 800 members in 65 countries, the ATBC is the largest and oldest academic society dedicated to the study and conservation of tropical ecosystems. The ATBC also publishes Biotropica – the leading source of original research on tropical ecosystems and the outlet for the reports resulting from replicated experiments. Its global membership and readership helps assure that our Reproducibility Initiative will be implemented in a diversity of ecosystems throughout the tropics. Throughout the process – from planning to workflow development to implementation – the COS will provide the administrative support and expertise gained though their Reproducibility Projects in Psychology and Cancer Biology.
+
+
+
 Include: 
 > means of communication and data management within the project team
 > (integration of new team members)
 
-**_Annual Milestones_**
+**_Annual Milestones_**: ---- 
 
-**_Risk Assessment_**
+**_Risk Assessment_**: ----- 
 
 **COMMUNICATION & DISSEMINATION**
 
-**TODO:** _Describe how knowledge obtained through support of this work will be disseminated to its target audience and to the broader biological, interdisciplinary, and other audiences. When appropriate, describe how the products (instrumentation, software, research methods) of this work will be accessible to its target audience and to the broader biological, interdisciplinary, and other audiences. Provide a clear statement of relevant intellectual property considerations and any constraints these may place on access to the proposed resource._
+  > **TODO:** _Describe how knowledge obtained through support of this work will be disseminated to its target audience and to the broader biological, interdisciplinary, and other audiences. When appropriate, describe how the products (instrumentation, software, research methods) of this work will be accessible to its target audience and to the broader biological, interdisciplinary, and other audiences. Provide a clear statement of relevant intellectual property considerations and any constraints these may place on access to the proposed resource._
 
 **OUTCOMES ASSESMENT:**
 
-**TODO:** _Identify what metrics will be used to measure success toward the stated goals of the project (both Intellectual Merit and Broader Impacts) and by what process the projects will collect and evaluate them._
-
+  > **TODO:** _Identify what metrics will be used to measure success toward the stated goals of the project (both Intellectual Merit and Broader Impacts) and by what process the projects will collect and evaluate them._
 
 
 <!-- \begin{wrapfigure}{R}{.25\textwidth}   -->
@@ -227,7 +226,7 @@ Include:
 
 <!-- \end{wrapfigure} -->
 
-    
+
 ## INTELLECTUAL MERIT
 
 > 1 paragraph
@@ -235,7 +234,7 @@ Include:
 ## BROADER IMPACTS
 
 
-Some of the most important advances in tropical biology have come from researchers forming networks to systematically collect observations of tree growth and diversity in permanent plots [@anderson-teixeiraCTFSForestGEOWorldwideNetwork2015; @menkePlantfrugivoreNetworksAre2012; @poorterBiomassResilienceNeotropical2016; @roveroTropicalEcologyAssessment2017]. The same is likely to be true as tropical biologists embrace “distributed experiments” [@borerFindingGeneralityEcology2014; @fraserCoordinatedDistributedExperiments2013], in which the same experimental manipulation is implemented at geographically and ecologically disparate locations [e.g., @romeroExtremeRainfallEvents2020]. The Reproducibility Project in Tropical Biology (RP:TB) we envision complements these efforts with a new means by which researchers throughout the tropics can collaborate to test and advance theory. Because many of the experiments proposed for replication are inexpensive to implement and monitor, and financial obstacles to individual participation will be eliminated when the RP:TB is finally funded, we expect this initiative will greatly expand the diversity of researchers participating in or leading networks. We especially hope the RP:TB will serve to stimulate much needed North-South and especially South-South collaboration [@stocksGeographicalInstitutionalDistribution2008], thereby providing important opportunities for international collaboration to US-based faculty and students. The ATBC-organized workshops and symposia emerging from the project will also serve as an important tool for capacity building and the professional advancement of early career scientists, as will the integration of reproducibility projects and a culture of open science in field courses and other educational programs. Finally, the data from replications will be highly valuable for quantifying the generality, impact, magnitude, speed, and consequences of human-induced alteration of ecosystems. Nowhere is this need more critical than in tropical ecosystems, which are home to majority of the world’s biodiversity and human population, play a critical role in global climate, and are being transformed by humans at an unprecedented rate and scale.
+Some of the most important advances in tropical biology have come from researchers forming networks to systematically collect observations, such as distributed experiments to study the effects of precipitation extremes on tropich structure [e.g., @romeroExtremeRainfallEvents2020] and permanent plot networks to study tree growth and diversity [@anderson-teixeiraCTFSForestGEOWorldwideNetwork2015; @menkePlantfrugivoreNetworksAre2012; @poorterBiomassResilienceNeotropical2016; @roveroTropicalEcologyAssessment2017]. The Reproducibility Project in Tropical Biology (RP:TB) we envision complements these efforts with a new means by which researchers throughout the tropics can collaborate to test and advance theory. Because many of the experiments proposed for replication are inexpensive to implement and monitor, and financial obstacles to individual participation will be eliminated when the RP:TB is finally funded, we expect this initiative will greatly expand the diversity of researchers participating in or leading networks. We especially hope the RP:TB will serve to stimulate much needed North-South and especially South-South collaboration [@stocksGeographicalInstitutionalDistribution2008], thereby providing important opportunities for international collaboration to US-based faculty and students. The ATBC-organized workshops and symposia emerging from the project will also serve as an important tool for capacity building and the professional advancement of early career scientists, as will the integration of reproducibility projects and a culture of open science in field courses and other educational programs. Finally, the data from replications will be highly valuable for quantifying the generality, impact, magnitude, speed, and consequences of human-induced alteration of ecosystems. Nowhere is this need more critical than in tropical ecosystems, which are home to majority of the world’s biodiversity and human population, play a critical role in global climate, and are being transformed by humans at an unprecedented rate and scale.
 
 It is essential to emphasize that this reproducibility project will have societal impacts that extend beyond the transformative effects on field-based disciplines. The research conducted by tropical biologists is critical for documenting threats to biodiversity, identifying priority areas for conservation, guiding the management of plants and animals harvested for human use, and informing policy at local, national, and international levels. These decisions rely in part on studies whose results may or may not be reproducible, however, which could have major - even catastrophic - consequences. For instance, one could overestimate the biodiversity in potential biological reserves based on snapshot surveys of bioindicator species (e.g., ants, understory plants, pollinators, frugivores/seed dispersers) whose results are anomalous.
 
@@ -245,7 +244,7 @@ In sum, there are few areas with greater policy implications in the 21st century
 
 ## RESULTS FROM PRIOR NSF RESEARCH
 
-**TODO:** _When appropriate, this section must include evidence of deposition of samples, data and/or data products in recognized, accessible, community-accepted repositories by listing such repositories and, if practical, metadata. All publications, data, data products, programs and/or scripts that are specifically mentioned in the Results from Prior NSF Support section must be referenced in the References Cited section and must provide unique, resolvable and persistent identifiers (such as Digital Object Identifiers [DOIs]; Uniform Resource Locators (URLs), or similar)._
+  > **TODO:** _When appropriate, this section must include evidence of deposition of samples, data and/or data products in recognized, accessible, community-accepted repositories by listing such repositories and, if practical, metadata. All publications, data, data products, programs and/or scripts that are specifically mentioned in the Results from Prior NSF Support section must be referenced in the References Cited section and must provide unique, resolvable and persistent identifiers (such as Digital Object Identifiers [DOIs]; Uniform Resource Locators (URLs), or similar)._
 
 **Bruna:** “SG: Synergistic effects of forest fragmentation and droughts on tropical plant demography” (DEB-1948607, $214,390). **_Intellectual Merit:_** The project had two objectives (1) to test for lagged effects of precipitation extremes on the vital rates of the Amazonian understory herb Heliconia acuminata, and (2) to build integral projection models (IPMs) with lagged effects to simulate the dynamics of populations in forest fragments and continuous forest under IPCC scenarios for the Central Amazon. Effects of precipitation extremes on vital rates could be delayed up to 36 months, with more pronounced effects on plants in fragments than on those in continuous forest. IPMs suggest that populations in fragments will decline under all IPCC scenarios, while the positive lagged effects of drought on growth will lead populations in forest to increase. The project resulted in two published articles, with two more in preparation, along with a permanently archived demographic dataset (>66,000 plant × year records of >8500 plants) and code repositories with a real-time data summary and validation dashboard and code for users test for lagged effects with their data sets. **_Broader Impacts:_** The award supported 1 Postdoc and 2 REU students. The students gained skills programming, statistics, and using quantitative methods to test ecological hypotheses. The postdoc’s programming lessons and archives were fundamental to his being hired as a Scientific Programmer & Educator at the U. of Arizona. The PI developed educational materials on climate change and tropical forests for a general education course and data management for a graduate course.
 
@@ -256,13 +255,80 @@ In sum, there are few areas with greater policy implications in the 21st century
 \newpage
 
 
+![Project Timeline]("images/activities.png")
+<!-- {width=300} -->
+
+
+```{r partners-fig, echo=FALSE,message = FALSE,warning=FALSE}
+# icons<-c("ATBC",
+#             "Biotropica",
+#             "COS",
+#             "UF",
+#             "Yale"
+#             )
+
+icons<-c("",
+            "",
+            "",
+            "",
+            ""
+            )
+partners<-c("The ATBC was founded in 1962 and is the largest and oldest professional organization dedicated to the study and conservation of tropical ecosystems. We seek to (1) promote awareness to as broad an audience as possible of the importance of the tropics, (2) improve communication and cooperation among tropical investigators, educators, environmental managers, and local communities, (3) inform and influence individuals and institutions whose decisions affect tropical habitats, their biota, and their inhabitants, (4) encourage the establishment, improvement, maintenance and accessibility of physical facilities, databases, and collections of biological materials for the study of tropical biology and conservation, and (5) enhance the training of and interactions between the next generation of tropical scientists and conservation professionals.  Our society is international in scope and membership: over 800 members in 65 countries.",
+            "Produced by the ATBC in collaboration with Wiley, Biotropica is an international journal publishing innovative research on the ecology and conservation of tropical ecosystems and on the evolution, behavior, and population biology of tropical organisms. In addition to Papers describing original research, we also publish authoritative and analytical Reviews of topics of current conservation or ecological importance, thought-provoking Commentaries that frequently initiate fruitful debate and discussion, and Special Issues dedicated to major advances by multiple investigators on a conceptual theme, geographic region, or ecosystem. We have a diverse Editorial Board of over 40 members based in more than 20 countries that handles over 500 submissions per year.",
+            "The Center for Open Science (COS): COS is dedicated to improving the alignment between scientific values and scientific practices. As a non-profit technology start-up, our team moves quickly from problem to solution, and continuously evaluates and improves our solutions. We blend science and technology in support of open science, transparency, and inclusivity.",
+            "The University of Florida (UF) has the TCD program...",
+            "Yale University has cool stuff too."
+            )
+
+partners_df<-data.frame(icons, 
+                        partners)
+
+path_images<-c("./images/atbc2.png", 
+                   "./images/bitr.png",
+                   "./images/cos.png",
+                   "./images/uf2.png",
+                   "./images/yale.png")
+
+# tmp <- knitr::kable(table_ex,
+partners_fig<-kable(partners_df,
+      digits = 2,
+      align = "cl",
+      format = "latex",
+      row.names = FALSE,
+      escape=FALSE,
+      booktabs = T,
+      linesep = "", # removes the blank line after every 5 lines
+      caption = "Partners in the Reproducibility Initaitive."
+      ) %>% 
+  # column_spec (1, width="4cm") %>%
+   column_spec(1, 
+               width="3cm", 
+               image = spec_image(path_images,230,100),
+               latex_valign = "m") %>% 
+  column_spec (2, width="16cm") %>%
+  # row_spec(0, bold = T, hline_after = FALSE, align="c") %>%
+  # row_spec(2, hline_after = FALSE) %>%
+  kable_styling(
+    # bootstrap_options = c("hover"),
+    # full_width = F,
+    latex_options = c("scale_down", "HOLD_position"),
+    font_size = 8,
+    position = "center"
+  ) 
+   
+partners_fig
+```
+
+
+
+
 ```{r examples, echo=FALSE,message = FALSE,warning=FALSE}
 table_ex <- read_csv("explain_table.csv",
                      col_names= FALSE) 
 
 table_ex[,1] <- NULL
 
-names(table_ex)<-c("Approach 1","Approach 2","Approach 3","Approach")
+names(table_ex)<-c("Approach 1","Approach 2","Approach 3","Approach 1")
 
 # tmp <- knitr::kable(table_ex,
 kable(table_ex,
@@ -303,74 +369,74 @@ kable(table_ex,
 \newpage
 \blandscape
 
-## Table 2: List of proposed articles and justification (needs formatting)
+<!-- ## Table 2: List of studies proposed for replication. -->
 
-<!-- ```{r studies, echo=FALSE,message = FALSE,warning=FALSE} -->
-
-<!-- Article<-as_tibble(c("Coley 1983", -->
-<!--            "Augspurger 1983", -->
-<!--            "Janzen 1967", -->
-<!--            "Marquis 1984", -->
-<!--            "Chazdon and Fetcher 1984, Kitajima 1984", -->
-<!--            "Ewel 1976", -->
-<!--            "Denslow 1980, Gentry and Dobson 1987, Jankowski et al 2009, Ryan et al 1983", -->
-<!--            "Bruna 1999, Carvalho and Vasconcelos 1999, Holl 1999, Menke et al. 2012"))%>%  -->
-<!--   rename(Article=value) -->
+```{r studies, echo=FALSE,message = FALSE,warning=FALSE}
+Article <- c("Coley 1983",
+           "Augspurger 1983",
+           "Janzen 1967",
+           "Marquis 1984",
+           "Chazdon and Fetcher 1984, Kitajima 1984",
+           "Ewel 1976",
+           "Denslow 1980, Ryan et al 1983,\\newline Gentry and Dobson 1987, Jankowski et al 2009",
+           "Bruna 1999, Holl 1999,  Carvalho \\& Vasconcelos 1999,\\newline Menke et al. 2012")
 
 
-<!-- Justification<-as_tibble(c("The coevolutionary arms race between plants and herbivores has led to the evolution of thousands of defensive chemical compounds, including many used by humans as pharmaceuticals (e.g., quinine, taxol, opiates). This study demonstrated how plant characteristics interact with local environmental conditions in forests to influence these plant defenses; replicating it in other locations is critical to both refining plant evolutionary theory and improving bioprospecting for novel pharmaceutical or pesticide compounds.",  -->
+Justification<- c("Demonstrated plant characteristics interact with local environmental conditions to influence the plant defensive chemistry central to plant-herbivore coevolution; replicating it in other locations will help refine ecological models of community coexistance and plant evolutionary theory.\\newline ",
 
-<!-- "Though this study was intended to test a fundamental theory explaining where seedlings become established, it also demonstrated fungal pathogens were an important and underappreciated mechanism influencing where seedlings became established. However, we know little about variation in pathogen effects at large scales or how climate change has altered their impacts, even for tree species that are central to community-based conservation strategies in the tropics (e.g., mahogany, Brazil nut). Replicating this study fill this data void.", -->
+"Demonstrated fungal pathogens were an important and underappreciated mechanism influencing seedling establishment. However, we still know little about large-scale variation in pathogen effects or how climate change has altered them, even for species central to conservation (e.g., mahogany, Brazil nut). Replicating this study fill this data void.\\newline ",
 
-<!-- "Over 300 species of tropical plants worldwide house ants in specialized structures in return for ants ferociously defending them against herbivores - an interaction that has fascinated naturalists since the early 1600s. This study, conducted in Central America with the tree genus Acacia, was the first to demonstrate unequivocally and experimentally that this was indeed a mutualism. Acacia are used by humans worldwide for timber and other uses and are critical stocks of carbon in African savannas; understanding why Acacia trees live or die has direct implications for individual livelihoods and conservation strategies. However, perhaps this study’s greatest impact was in demonstrating ant-plant systems are ideal ones for experimentally studying the structure, breakdown, and recovery of mutualistic interactions in ways that are impossible with other mutualist systems (e.g., pollination, seed dispersal). Replicating this study will have impacts that extend beyond the conservation of this ecologically and economically critical species - it will allow ecologists to infer how human activities have affected other mutualisms that provide critical ecosystem services.", -->
+"The >300 species of tropical plants that house ants in specialized structures (e.g., hollow thorns, leaf-pouches) have fascinated naturalists since the 1600s. This experiment was the 1st to unequivocally show that ants defend their host-plant from herbivores, but perhaps its greatest impact was demonstrating that ant-plant systems are exceptional ones for experimental investigations of how mutualisms shape ecological communities. Replicating this study will provide one of the most comprehensive examples of how and why mutualisms and their impact vary geographically.\\newline ",
 
-<!-- "This study was one of the first to show that herbivory can lead directly to reduced seed production in plants. Consequently, subsequent studies modeling the long-term viability of endangered plant species or those harvested for use by humans have usually incorporated either direct or indirect measurements of herbivory or its impact.  Replicating this study will help assess under what circumstances these labor-intensive and challenging measurements are actually necessary.", -->
+"Was one of the first to show that herbivory leads to reduced seed production by plants; as a result, subsequent studies modeling the long-term viability of plant species often attempt to incorporate direct or indirect measurements of herbivory's impact. Replication will help assess under what circumstances these labor-intensive and challenging measurements are actually necessary.\\newline ",
 
-<!-- "The limited amount of sunlight reaching the understory of tropical forests - less than 2 percent - is the factor limiting the growth and survivorship of forest plants. These studies mapped understory light levels and documented how plants respond physiologically to variation in the light environment. Though considered seminal, they have yet to be replicated. Consequently, it remains poorly understood how altered forest structure resulting from deforestation or drought changes forest microclimate and how plants respond to these changes.", -->
+"The limited sunlight reaching the understory of tropical forests (< 2\\%) limits plant growth and survivorship. These fundamental studies mapped understory light levels and documented how plants respond physiologically to variation in the light environment. Replicating them across gradients of forest disturbance will elucidate how plants respond to the changes in forest structure and microclimate resulting from deforestation and other human activities.\\newline ",
 
-<!-- "40 percent of the world’s tropical forests are not “primary forest”, but rather “successional” forest regenerating in areas abandoned after agriculture or deforestation. How these areas were used prior to being abandoned strongly influences nutrient cycling in regenerating forests, which in turn influences their species diversity and hence capacity to sequester carbon. Replicating this study globally will provide the most robust data to date on these issues, informing the principal international policy mechanisms for promoting forest conservation -->
-<!-- These studies were fundamental in describing how 1000s of species are able to coexist in tropical ecosystems when presumably competing for the same resources. Revisiting their conclusions is essential in light of the myriad ways tropical ecosystems are being altered, since most conservation policies are based on the original results. For instance, deforestation and droughts increase forest disturbance, which can cause species that thrive in them to increase in abundance while others go extinct (Denslow, Gentry). Similarly, warming climates are predicted to cause species found only at high elevations to be pushed “off mountaintops” to extinction. Finally, the interaction of changing landscapes and climates can influence animal behavior responsible for mating success; without understanding changes in species behavior, abundance, and distribution it is impossible to design conservation and management plans to proactively protect threatened biodiversity.",  -->
+"40\\% of tropical forests are “successional” forest regenerating in areas abandoned after deforestation. How these areas were used prior to being abandoned strongly influences nutrient cycling in regenerating forests, which in turn influences species diversity and carbon sequestration. Global replication will provide the most robust data to date on these questions, informing the principal policy mechanisms promoting forest conservation.\\newline ",
 
-<!-- "These studies were fundamental in describing how 1000s of species are able to coexist in tropical ecosystems when presumably competing for the same resources. Revisiting their conclusions is essential in light of the myriad ways tropical ecosystems are being altered, since most conservation policies are based on the original results. For instance, deforestation and droughts increase forest disturbance, which can cause species that thrive in them to increase in abundance while others go extinct (Denslow, Gentry). Similarly, warming climates are predicted to cause species found only at high elevations to be pushed “off mountaintops” to extinction. Finally, the interaction of changing landscapes and climates can influence animal behavior responsible for mating success; without understanding changes in species behavior, abundance, and distribution it is impossible to design conservation and management plans to proactively protect threatened biodiversity.", -->
-<!-- "Deforestation and the resulting isolation of ‘islands’ of forest surrounded by agriculture is possibly the leading cause of extinction in the tropics. The following studies have provided some of the most important and widely-applied insights to date on how plants and animals that remain in these forest fragments are influenced by the dramatic changes to their environment. Replication - especially in the understudied forests of equatorial Africa - will help ensure that the results of these studies are truly applicable to other regions or if resources are better allocated to mitigating the impacts of deforestation on other species and ecological processes.")) %>%  -->
-<!--   rename(Justification=value) -->
+"Fundamental in describing how 1000s of species are able to coexist in tropical ecosystems when competing for the same resources. Revisiting their conclusions is essential in light of the myriad ways tropical ecosystems are being altered, since most conservation policies are based on the original results.\\newline ",
+
+"Have provided some of the most widely cited insights on plants and animals that persist in habitat fragments following deforestation. Replication - especially in the understudied forests of equatorial Africa - will help ensure that the results are truly applicable to other regions or if resources are better allocated to studying other species and processes.\\newline ")
 
 
-<!-- table_rep<-bind_cols(Article,Justification) %>%  -->
-<!--   mutate(Article=paste(Article, Justification,sep= ": "))  -->
+table_rep<-data.frame(Article,
+                         Justification) 
 
-<!-- table_rep[,2] <- NULL -->
-<!-- # names(table_ex)<-c("Approach 1","Approach 2","Approach 3","Approach") -->
+# %>%
+#   mutate(Article=paste(Article, Justification,sep= ": "))
+# 
+# table_rep[,2] <- NULL
+# names(table_ex)<-c("Approach 1","Approach 2","Approach 3","Approach")
 
-<!-- # tmp <- knitr::kable(table_ex, -->
-<!-- kable(table_rep, -->
-<!--       digits = 2, -->
-<!--       align = "ll", -->
-<!--       format = "latex", -->
-<!--       row.names = FALSE, -->
-<!--       escape=FALSE, -->
-<!--       booktabs = T, -->
-<!--       linesep = "", # removes the blank line after every 5 lines -->
-<!--       caption = "Proposed studies for replication and Their relevance to tropical conservation, management, and policy. In tropical biology, as in many fields, it is often challenging to draw a direct link between a study and changes in policy. This is particularly true for studies testing general theories, even though they provide the essential template for “applied” studies with more obvious implications. The studies selected for replication both advance biological theory and inform - either directly or indirectly - policies for conserving and managing of tropical ecosystems and the services critical for human health and well-being they provide. ") %>%  -->
-<!--   column_spec (1, width="22cm") %>% -->
-<!--   # # # column_spec (1, width="2cm", bold = T) %>% -->
-<!--   # column_spec (2, width="18cm") %>% -->
-<!--   # column_spec (3, width="4.3cm") %>% -->
-<!--   # column_spec (4, width="4.3cm") %>% -->
-<!--   # column_spec (5, width="3cm") %>% -->
-<!--   # row_spec(0, bold = T, hline_after = FALSE, align="c") %>% -->
-<!--   # row_spec(2, hline_after = FALSE) %>% -->
-<!--   kable_styling( -->
-<!--     # bootstrap_options = c("hover"), -->
-<!--     # full_width = F, -->
-<!--     # latex_options = c("scale_down", "HOLD_position"), -->
-<!--     font_size = 8, -->
-<!--     position = "center") %>% -->
-<!--   pack_rows("Interspecific Interactions and Population Dynamics", 1, 4) %>% -->
-<!--   pack_rows("Tropical Environments and Organismal Responses to Environmental Conditions",5,6) %>% -->
-<!--   pack_rows("Species Diversity and Dynamics", 7,7) %>% -->
-<!--   pack_rows("Anthropogenic Impacts on Tropical Systems", 8,8) -->
-<!-- ``` -->
+# tmp <- knitr::kable(table_ex,
+kable(table_rep,
+      digits = 2,
+      align = "rl",
+      format = "latex",
+      row.names = FALSE,
+      escape=FALSE,
+      booktabs = T,
+      linesep = "", # removes the blank line after every 5 lines
+      caption = "Studies proposed for replication. Replicating these studies would both advance biological theory and inform - directly or indirectly - the conservation or management of tropical biodiversity and ecosystem services.") %>%
+  column_spec (1, width="4cm") %>%
+  column_spec (2, width="16cm") %>%
+  # # # column_spec (1, width="2cm", bold = T) %>%
+  # column_spec (2, width="18cm") %>%
+  # column_spec (3, width="4.3cm") %>%
+  # column_spec (4, width="4.3cm") %>%
+  # column_spec (5, width="3cm") %>%
+  # row_spec(0, bold = T, hline_after = FALSE, align="c") %>%
+  kable_styling(
+    # bootstrap_options = c("hover"),
+    # full_width = F,
+    # latex_options = c("scale_down", "HOLD_position"),
+    font_size = 8,
+    position = "center") %>%
+  pack_rows("Interspecific Interactions and Population Dynamics", 1, 4, color="darkmidnightblue") %>%
+  pack_rows("Tropical Environments and Organismal Responses to Environmental Conditions",5,6,color="darkmidnightblue") %>%
+  pack_rows("Species Diversity and Dynamics", 7,7,color="darkmidnightblue") %>%
+  pack_rows("Anthropogenic Impacts on Tropical Systems", 8,8,color="darkmidnightblue")
+```
 
 
 <!-- \newsection{E} -->
@@ -389,3 +455,7 @@ kable(table_ex,
 
 ::: {#refs}
 :::
+
+
+
+ <!-- sampling technology, statistics, computational tools, or analytical methods -->
