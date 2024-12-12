@@ -26,7 +26,7 @@
 
 \usepackage{sectsty}
 \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
-\usepackage{sectsty}\subsectionfont{\color{darkmidnightblue}}
+\usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
 \usepackage{sectsty}\subsubsectionfont{\color{darkmidnightblue}}
 
 
@@ -46,8 +46,8 @@
 % \titlespacing*{\subsection}{0pt}{0.35em}{0pt}
 % \titlespacing*{\subsubsection}{0pt}{0.25em}{0pt}
 
-\titlespacing*{\section}{0pt}{0.5em}{5.0 pt}
-\titlespacing*{\subsection}{0pt}{0.35em}{5pt}
+\titlespacing*{\section}{0pt}{0.5em}{15.0 pt}
+\titlespacing*{\subsection}{0pt}{0.65em}{5pt}
 \titlespacing*{\subsubsection}{0pt}{0.25em}{2pt}
 
 % \titlespacing*{\paragraph}{0pt}{0em}{0pt}
